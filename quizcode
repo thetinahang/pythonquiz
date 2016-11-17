@@ -2,7 +2,11 @@
 easy_level = "I am trying to finish this."
 
 #medium string - 4 blanks
+medium_level = "This is taking way longer than it should." 
+
 #hard string - 4 blanks
+hard_level = "I will finish this." 
+
 
 #easy answers - 4
 #medium answers - 4
