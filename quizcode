@@ -1,14 +1,43 @@
 #Stage 2: Code your own quiz
 
+#the following strings are taken from the fill_in_the_blanks.py exercise
+#will use these strings in my quiz
 
 #easy string - 4 blanks
-easy_level = "I am trying to finish this."
+easy = "A common first thing to do in a language is display
+'Hello __1__!'  In __2__ this is particularly easy; all you have to do
+is type in:
+__3__ "Hello __1__!"
+Of course, that isn't a very useful thing to do. However, it is an
+example of how to output to the user using the __3__ command, and
+produces a program which does something, so it is useful in that capacity.
+
+It may seem a bit odd to do something in a Turing complete language that
+can be done even more easily with an __4__ file in a browser, but it's
+a step in learning __2__ syntax, and that's really its purpose."
 
 #medium string - 4 blanks
-medium_level = "This is taking way longer than it should." 
+medium = "A __1__ is created with the def keyword.  You specify the inputs a
+__1__ takes by adding __2__ separated by commas between the parentheses.
+__1__s by default returns __3__ if you don't specify the value to retrun.
+__2__ can be standard data types such as string, integer, dictionary, tuple,
+and __4__ or can be more complicated such as objects and lambda functions." 
 
 #hard string - 4 blanks
-hard_level = "I will finish this." 
+hard_level = "When you create a __1__, certain __2__s are automatically
+generated for you if you don't make them manually. These contain multiple
+underscores before and after the word defining them.  When you write
+a __1__, you almost always include at least the __3__ __2__, defining
+variables for when __4__s of the __1__ get made.  Additionally, you generally
+want to create a __5__ __2__, which will allow a string representation
+of the method to be viewed by other developers.
+
+You can also create binary operators, like __6__ and __7__, which
+allow + and - to be used by __4__s of the __1__.  Similarly, __8__,
+__9__, and __10__ allow __4__s of the __1__ to be compared
+(with <, >, and ==)." 
+
+
 
 #sample string is from the file Udacity wants us to start from 
 #so I will use it to start my quiz script
