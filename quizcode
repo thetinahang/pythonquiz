@@ -16,12 +16,16 @@ It may seem a bit odd to do something in a Turing complete language that
 can be done even more easily with an __4__ file in a browser, but it's
 a step in learning __2__ syntax, and that's really its purpose."
 
+easy_answers = ['world', 'Python', 'print', 'HTML']
+
 #medium string - 4 blanks
 medium = "A __1__ is created with the def keyword.  You specify the inputs a
 __1__ takes by adding __2__ separated by commas between the parentheses.
 __1__s by default returns __3__ if you don't specify the value to retrun.
 __2__ can be standard data types such as string, integer, dictionary, tuple,
 and __4__ or can be more complicated such as objects and lambda functions." 
+
+medium_answers = ['function', 'arguments', 'None', 'list'] 
 
 #hard string - 4 blanks
 hard_level = "When you create a __1__, certain __2__s are automatically
@@ -37,7 +41,7 @@ allow + and - to be used by __4__s of the __1__.  Similarly, __8__,
 __9__, and __10__ allow __4__s of the __1__ to be compared
 (with <, >, and ==)." 
 
-
+hard_answers = ['class', 'method', '__init__', 'instance', '__repr__', '__add__', '__sub__', '__lt__', '__gt__', '__eq__']
 
 #sample string is from the file Udacity wants us to start from 
 #so I will use it to start my quiz script
@@ -55,13 +59,20 @@ sample_answers = ["function", "parameters", "error", "list"]
 #hard answers - 4 
 
 #prompt player
-
-
+#get answer
 #start preferred level
 
 #what happens if they get the blank wrong
+#prompt to try again
 
 #what happens if they get the blank right
+#prompt to continue
 
+#number of tries
+#how it would know how many tries are left - math ops
 
+#what it would say when the player has used up all of their tries
+#what it would say when they complete the string
+
+#
 
